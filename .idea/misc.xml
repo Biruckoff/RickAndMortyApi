@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable-v24/progress.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable/splash_screen.xml" value="0.1925" />
+        <entry key="app/src/main/res/layout-normal/activity_about_character.xml" value="0.18541666666666667" />
+        <entry key="app/src/main/res/layout-normal/activity_list_of_character.xml" value="0.18541666666666667" />
+        <entry key="app/src/main/res/layout-normal/activity_list_of_episodes.xml" value="0.18541666666666667" />
+        <entry key="app/src/main/res/layout-normal/activity_main.xml" value="0.18541666666666667" />
+        <entry key="app/src/main/res/layout-normal/item_of_episode.xml" value="0.18541666666666667" />
+        <entry key="app/src/main/res/layout-normal/list_row_main.xml" value="0.18541666666666667" />
+        <entry key="app/src/main/res/layout-normal/loading.xml" value="0.18541666666666667" />
+        <entry key="app/src/main/res/layout-small/activity_about_character.xml" value="0.7841409691629956" />
+        <entry key="app/src/main/res/layout-small/activity_list_of_character.xml" value="0.15220179563916203" />
+        <entry key="app/src/main/res/layout/activity_about_character.xml" value="0.14110186286167262" />
+        <entry key="app/src/main/res/layout/activity_list_of_character.xml" value="0.18072916666666666" />
+        <entry key="app/src/main/res/layout/activity_list_of_episodes.xml" value="0.18072916666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18072916666666666" />
+        <entry key="app/src/main/res/layout/epiosode_list_item.xml" value="0.184375" />
+        <entry key="app/src/main/res/layout/item_of_episode.xml" value="0.184375" />
+        <entry key="app/src/main/res/layout/list_row_main.xml" value="0.15220179563916203" />
+        <entry key="app/src/main/res/layout/loading.xml" value="0.18072916666666666" />
+        <entry key="app/src/main/res/menu/mene_ac.xml" value="0.3546875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

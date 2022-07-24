@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AboutCharacter"
+    android:id="@+id/activity_about_character">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="32"
+        android:background="#242424">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="#242424"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/back_button"
+                android:text="back"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="8dp"
+                android:textColor="#01B4C6"></Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:text="Episodes"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:textColor="#01B4C6"
+                ></Button>
+        </RelativeLayout>
+
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="15"
+    android:background="#242424">
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:id="@+id/image"
+        android:layout_centerInParent="true"></ImageView>
+</RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="15"
+                android:background="#242424"
+
+                >
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="name"
+                    android:textSize="40dp"
+
+                    android:textColor="#01B4C6"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="12dp"
+                    android:fontFamily="@font/shadows_into_light_regular"
+                    />
+
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="status"
+                    android:textSize="40dp"
+
+                    android:textColor="#01B4C6"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="12dp"
+                    android:fontFamily="@font/shadows_into_light_regular"
+                  />
+
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="location"
+                    android:textSize="40dp"
+
+                    android:textColor="#01B4C6"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="12dp"
+                    android:fontFamily="@font/shadows_into_light_regular"
+                    />
+
+                <TextView
+                    android:id="@+id/species"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="species"
+                    android:textSize="40dp"
+
+                    android:textColor="#01B4C6"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="12dp"
+                    android:fontFamily="@font/shadows_into_light_regular"
+                   />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
