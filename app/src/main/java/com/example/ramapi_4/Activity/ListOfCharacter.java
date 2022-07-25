@@ -6,25 +6,18 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.ProgressBar;
+
 
 import com.example.ramapi_4.AppCon;
 import com.example.ramapi_4.AppObject.ACAdapter;
 import com.example.ramapi_4.AppObject.CartoonPers;
-import com.example.ramapi_4.AppObject.Downloader;
-import com.example.ramapi_4.AppObject.Parser;
+
 import com.example.ramapi_4.AsyncTasks.CheckForUpdates;
 import com.example.ramapi_4.AsyncTasks.GetInfoLOC;
-import com.example.ramapi_4.Database.Character.DatabaseCharacter;
-import com.example.ramapi_4.Database.DoubleKey.DatabaseDoubleKey;
-import com.example.ramapi_4.Database.Episode.DatabaseEpisode;
+
 import com.example.ramapi_4.Interfaces.Callback2;
 import com.example.ramapi_4.R;
 
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.util.ArrayList;
 

@@ -40,7 +40,7 @@ public class ListOfEpisodes extends AppCompatActivity implements Callback1 {
 
         new GetInfoLOE(ListOfEpisodes.this).execute(cartoonPers);
         flag = false;
-        sortBy.setText("Sort by alph");// Перенести в onComplete
+        sortBy.setText("Sort by alph");
     }
     public void onComplete(CartoonPers result) {
         setFullAct(result);
@@ -78,7 +78,6 @@ public class ListOfEpisodes extends AppCompatActivity implements Callback1 {
         if(flag) Arrays.sort(names);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 R.layout.item_of_episode, names);
-
 
         lvMain.setAdapter(adapter);
         }catch (NullPointerException e){

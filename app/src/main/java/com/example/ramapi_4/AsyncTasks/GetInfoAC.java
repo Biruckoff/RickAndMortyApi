@@ -17,8 +17,6 @@ import com.example.ramapi_4.Interfaces.Callback1;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.List;
-
 //This class takes data from Server/Database for Activity.AboutCharacter
 public class GetInfoAC extends AsyncTask<CartoonPers, Void, CartoonPers> {
    private static final String TAG = "GetInfoAC";

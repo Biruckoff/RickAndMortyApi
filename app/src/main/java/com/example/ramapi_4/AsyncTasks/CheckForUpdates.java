@@ -4,7 +4,6 @@ import android.os.AsyncTask;
 import android.util.Log;
 
 import com.example.ramapi_4.AppObject.Downloader;
-import com.example.ramapi_4.Database.Character.DatabaseCharacter;
 import com.example.ramapi_4.Database.DoubleKey.DatabaseDoubleKey;
 import com.example.ramapi_4.Database.Episode.DatabaseEpisode;
 

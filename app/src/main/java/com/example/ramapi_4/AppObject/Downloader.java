@@ -1,10 +1,6 @@
 package com.example.ramapi_4.AppObject;
 
 import android.util.Log;
-import android.view.Gravity;
-import android.widget.Toast;
-
-import com.example.ramapi_4.AppCon;
 
 import java.io.BufferedReader;
 import java.io.IOException;
