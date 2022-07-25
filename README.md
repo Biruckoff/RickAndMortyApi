@@ -2,7 +2,7 @@
 This app was created to handle response from https://rickandmortyapi.com/ using REST API.\
 Project contains three base folders: Activity, AppObject, AsyncTask.
 ##
-Приложение создано для того, чтобы обрабатывать ответы с https://rickandmortyapi.com/ используя REST API. \
+Приложение создано для того, чтобы обрабатывать ответы с https://rickandmortyapi.com/ с использованием REST API. \
 Проект состоит из трёх основных папок: Activity, AppObject, AsyncTask.
 
 ## Activity
